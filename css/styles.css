@@ -3268,15 +3268,15 @@ fieldset:disabled .btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #cf5331;
-  border-color: #c34e2e;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .btn-check:focus+.btn-primary,
 .btn-primary:focus {
   color: #fff;
-  background-color: #cf5331;
-  border-color: #c34e2e;
+  background-color: #000000;
+  border-color: #000000;
   box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
 }
 
@@ -3537,9 +3537,9 @@ fieldset:disabled .btn {
 }
 
 .btn-light:hover {
-  color: #000;
-  background-color: #f9fafb;
-  border-color: #f9fafb;
+  color: #fff;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .btn-check:focus+.btn-light,
@@ -8720,7 +8720,7 @@ fieldset:disabled .btn {
 
 .text-white-50 {
   --bs-text-opacity: 1;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(255, 255, 255, 1) !important;
 }
 
 .text-reset {
@@ -12427,7 +12427,7 @@ header.masthead .h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  background: rgba(7, 150, 7, 0.8);
   transition: opacity 0.25s ease;
   text-align: center;
 }
